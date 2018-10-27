@@ -95,7 +95,7 @@ echo "\n";
 flush(); 		
 ob_flush(); 	} } echo
  " ==============> Selamat Nuyul <==============  \n"; 
-echo "Token Bray: "; $token = trim(fgets(STDIN)); if ($token == "") { 	
+echo "Lebokne Token Bray: "; $token = trim(fgets(STDIN)); if ($token == "") { 	
 die ("Token Ra Oleh Kosong Goblok!!!!\n"); } else { 	
 while (true) { 		
 coin($token); 	} } ?>
